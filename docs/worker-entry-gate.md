@@ -50,7 +50,6 @@ Evidence (re-verified against the repo):
   is resolved in this checkout.
 
 **Verdict: NOT MET** — blocked by the open Phase 2 issues and by the
-**Verdict: NOT MET** — blocked by the open Phase 2 issues and by the
 verified-schema count (0-1, seeded SACs unverifiable, vs. the `≥25` target);
 see milestone [Worker gate 1 - 25 verified schemas](https://github.com/orbital-stellar/orbital_stellar/milestone/15).
 
@@ -60,8 +59,8 @@ see milestone [Worker gate 1 - 25 verified schemas](https://github.com/orbital-s
 
 Evidence:
 
-- `v1.0.0`: **NOT MET.** No `v1.0.0` git tag exists (`git tag` returns no tags
-  at all in this checkout). `ROADMAP.md` Phase 1 is still "in progress"
+- `v1.0.0`: **NOT MET.** No `v1.0.0` git tag exists (`v0.1.0` and `v0.2.0` are
+  the only versioned releases). `ROADMAP.md` Phase 1 is still "in progress"
   (Waves 1.4–1.5 outstanding).
 - `@orbital-stellar/anchor-sdk` publication: **MET.** `packages/anchor-sdk`'s
   `package.json` `version` is `0.2.0`, and `@orbital-stellar/anchor-sdk@0.2.0`
